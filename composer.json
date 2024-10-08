@@ -1,0 +1,19 @@
+{
+    "name": "usuario/bienesraices",
+    "description": "proyecto PDO",
+    "type": "project",
+        "authors": [
+        {
+            "name": "sergio",
+            "email": "correo@correo.com"
+        }
+    ],
+        "require": {
+        "intervention/image": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"./class"
+        }
+    }
+}
